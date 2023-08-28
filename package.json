@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@faker-js/faker": "^8.0.2",
     "cypress": "^12.17.4",
     "joi": "^17.10.0",
     "mocha": "^10.2.0",

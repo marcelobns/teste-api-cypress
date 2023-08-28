@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
-import produtosSchema from '../schemas/produtos.schema';
+import produtosSchema from '../contracts/produtos.contract';
 
-describe('testando produtos', () => {
+describe('Testes da Funcionalidade produtos', () => {
     let token;
     before(() => {
         cy.token("marcelo@teste.com.br", "editado_teste").then((_token) => {
